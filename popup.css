@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    font-size: 48px;
+}
+div{
+    border: 1px solid #090909;
+    width: 70px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+div:hover{
+    background-color: bisque;
+}
+.hidden{
+    display:none;
+}
+.btndark{
+    background-color: aliceblue;
+}
+
+.bodydark{
+    background-color: cadetblue;
+}
+.textDark{
+    color: brown;
+}
+
+section{
+    width: 90%;
+    margin: 150px auto;
+    padding: 30px;
+}
+section>*{
+    margin: 20px 0;
+}
+
+.darkBG{
+    background-color: rgba(0, 0, 139, 0.397);
+}
